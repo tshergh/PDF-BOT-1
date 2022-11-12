@@ -5,7 +5,7 @@ import logging
 import convertapi
 from PIL import Image
 from time import sleep
-from configs import Config, Msgs
+from configs import Configs
 from pyrogram import Client, filters
 from pyrogram.types import ForceReply
 from PyPDF2 import PdfFileWriter, PdfFileReader
